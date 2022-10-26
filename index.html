@@ -11,8 +11,8 @@
     <script src="https://kit.fontawesome.com/b0184b4d81.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/main.css">
     <title>Солнечные батареи GreenCorp</title>
-    <script src="js/animation.js" defer></script>
-    <script src="js/canvas.js" defer></script>
+    <!-- <script src="js/animation.js" defer></script>
+    <script src="js/canvas.js" defer></script> -->
 </head>
 
 <body>
@@ -126,14 +126,14 @@
                     <label for="phone">Номер телефона</label>
                     <input type="tel" placeholder="7 (999) 999-99-99" id="phone">
                 </div>
-                <div class="form__group">
+                <div class="form__group" id="ooo">
                     <label for="budget">Примерный бюджет</label>
-                    <select name="" id="budget">
+                    <select name="budget" id="budget">
                         <option>Выберите вариант</option>
                         <option value="10-30">10 000₽ – 30 000₽</option>
                         <option value="30-60">30 000₽ – 60 000₽</option>
                         <option value="60-100">60 000₽ – 100 000₽</option>
-                        <option value="100+">100 000₽+</option>
+                        <option value="other">Другое</option>
                     </select>
                 </div>
                 <button class="form__submit" type="submit">Отправить заявку</button>
@@ -167,6 +167,9 @@
         </div>
         <div class="footer__copyright">GreenCorp © 2022</div>
     </footer>
+
+    <script src="js/animation.js" defer></script>
+    <script src="js/canvas.js" defer></script>
 </body>
 
 </html>
